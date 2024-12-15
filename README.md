@@ -28,3 +28,31 @@ repository ini adalah repository setup prohect medpoint sistem untuk cms/web app
 - ├── vite.config.ts            # Konfigurasi Vite
 - ├── package.json              # Manajer dependensi proyek
 - └── README.md                 # Dokumentasi proyek
+
+  ## cara menjalankan project
+  
+  ### Requirements
+- node v20: https://nodejs.org/en/learn/getting-started/how-to-install-nodejs
+- npm v10: https://docs.npmjs.com/getting-started
+  
+  ### 1. Clone the repository link
+
+```bash
+git clone https://github.com/deniPamungkas/featured-e-commerce.git
+```
+### 2. move to project folder
+
+```bash
+cd CMS-IP-medpoint
+```
+
+### 3. run the project
+```bash
+cd client
+```
+```bash
+npm install
+```
+```bash
+npm run dev
+```
