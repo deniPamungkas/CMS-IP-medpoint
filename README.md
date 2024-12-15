@@ -38,7 +38,7 @@ repository ini adalah repository setup prohect medpoint sistem untuk cms/web app
   ### 1. Clone the repository link
 
 ```bash
-git clone https://github.com/deniPamungkas/featured-e-commerce.git
+git clone https://github.com/deniPamungkas/CMS-IP-medpoint.git
 ```
 ### 2. move to project folder
 
@@ -47,9 +47,6 @@ cd CMS-IP-medpoint
 ```
 
 ### 3. run the project
-```bash
-cd client
-```
 ```bash
 npm install
 ```
