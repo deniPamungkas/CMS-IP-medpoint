@@ -3,7 +3,7 @@ import { loginFormControl } from "../../assets/constants";
 import InputField from "../atoms/inputField";
 import Button from "../atoms/button";
 import { supabase } from "../../utils/supabaseConfig";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 
 interface CustomFormProps {
   formData: LoginForm;
@@ -73,14 +73,15 @@ const CustomForm: React.FC<CustomFormProps> = ({ formData, setFormData }) => {
       </div>
       <div className="w-full">
         <Button
+          style=""
           buttonType="submit"
           disabled={isLoading}
           label="Login"
           onClick={() => {}}
           size="default"
+          variant="primary"
         />
       </div>
-      <ToastContainer />
     </form>
   );
 };
