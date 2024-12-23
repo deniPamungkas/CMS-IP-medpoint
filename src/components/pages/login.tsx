@@ -35,12 +35,15 @@ const Login = () => {
         <div className="w-full p-3">
           <h1 className="text-center text-2xl font-bold">Mediverse</h1>
         </div>
-        <div className="w-full h-full flex justify-center items-center">
+        <div className="w-full h-full flex flex-col justify-start items-center">
           <img
             src="./Learning-pana.png"
             alt="illustrasi"
-            className="w-[500px] h-[500px]"
+            className="w-[400px] h-[400px]"
           />
+          <h1 className="text-4xl text-center">
+            Your Personal Healthcare Assistant
+          </h1>
         </div>
       </div>
     </div>
