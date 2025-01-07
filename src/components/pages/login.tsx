@@ -41,7 +41,7 @@ const Login = () => {
             alt="illustrasi"
             className="w-[400px] h-[400px]"
           />
-          <h1 className="text-4xl text-center font-bold text-red">
+          <h1 className="text-4xl text-center font-bold text-red-500">
             Your Personal Healthcare Assistant
           </h1>
         </div>
